@@ -1,0 +1,7 @@
+.vs
+Debug
+/lib
+/obj
+Release
+x64
+*.user
