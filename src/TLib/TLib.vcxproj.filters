@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ipdict.cpp">
+      <Filter>PROJROOT</Filter>
+    </ClCompile>
+    <ClCompile Include="tads.cpp">
+      <Filter>PROJROOT</Filter>
+    </ClCompile>
+    <ClCompile Include="tapi32ex.cpp">
+      <Filter>PROJROOT</Filter>
+    </ClCompile>
+    <ClCompile Include="tapi32u8.cpp">
+      <Filter>PROJROOT</Filter>
+    </ClCompile>
+    <ClCompile Include="tapp.cpp">
+      <Filter>PROJROOT</Filter>
+    </ClCompile>
+    <ClCompile Include="tcmndlg.cpp">
+      <Filter>PROJROOT</Filter>
+    </ClCompile>
+    <ClCompile Include="tdlg.cpp">
+      <Filter>PROJROOT</Filter>
+    </ClCompile>
+    <ClCompile Include="texcept.cpp">
+      <Filter>PROJROOT</Filter>
+    </ClCompile>
+    <ClCompile Include="tgdiplus.cpp">
+      <Filter>PROJROOT</Filter>
+    </ClCompile>
+    <ClCompile Include="tinet.cpp">
+      <Filter>PROJROOT</Filter>
+    </ClCompile>
+    <ClCompile Include="tini.cpp">
+      <Filter>PROJROOT</Filter>
+    </ClCompile>
+    <ClCompile Include="tmisc.cpp">
+      <Filter>PROJROOT</Filter>
+    </ClCompile>
+    <ClCompile Include="tregist.cpp">
+      <Filter>PROJROOT</Filter>
+    </ClCompile>
+    <ClCompile Include="tstr.cpp">
+      <Filter>PROJROOT</Filter>
+    </ClCompile>
+    <ClCompile Include="twin.cpp">
+      <Filter>PROJROOT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tapi32ex.h">
+      <Filter>PROJROOT</Filter>
+    </ClInclude>
+    <ClInclude Include="tapi32u8.h">
+      <Filter>PROJROOT</Filter>
+    </ClInclude>
+    <ClInclude Include="tcmndlg.h">
+      <Filter>PROJROOT</Filter>
+    </ClInclude>
+    <ClInclude Include="tlib.h">
+      <Filter>PROJROOT</Filter>
+    </ClInclude>
+    <ClInclude Include="tmisc.h">
+      <Filter>PROJROOT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="">
+      <UniqueIdentifier>{d41d8cd9-8f00-b204-e980-0998ecf8427e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

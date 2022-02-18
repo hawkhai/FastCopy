@@ -122,6 +122,9 @@
     <PostBuildEvent>
       <Command>copy ..\..\debug\fastext1.dll  ..\..\x64\debug\</Command>
     </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>..\..\bin\vcxprojfilters.exe shellext.vcxproj.filters</Command>
+    </PreLinkEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>

@@ -247,6 +247,9 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <OutputFile>Obj\Debug\FastCopy.bsc</OutputFile>
     </Bscmake>
+    <PreLinkEvent>
+      <Command>bin\vcxprojfilters.exe FastCopy.vcxproj.filters</Command>
+    </PreLinkEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>

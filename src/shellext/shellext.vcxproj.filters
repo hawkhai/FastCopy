@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="shellext.cpp">
+      <Filter>PROJROOT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>PROJROOT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="shellext.rc">
+      <Filter>Resource Files\PROJROOT</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="fcshext.ico">
+      <Filter>Resource Files\PROJROOT</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{fa3635ce-6c7c-7de5-ddeb-60602507503f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PROJROOT">
+      <UniqueIdentifier>{9582241a-d1e3-057c-e303-0acc06f6372c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\PROJROOT">
+      <UniqueIdentifier>{2188b37c-55ca-e98b-1d17-e4ad6852c8f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

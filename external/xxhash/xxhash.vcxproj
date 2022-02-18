@@ -108,6 +108,9 @@
     <Link>
       <SubSystem>Windows</SubSystem>
     </Link>
+    <PreLinkEvent>
+      <Command>..\..\bin\vcxprojfilters.exe xxhash.vcxproj.filters</Command>
+    </PreLinkEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="xxhash.c">
+      <Filter>PROJROOT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="">
+      <UniqueIdentifier>{d41d8cd9-8f00-b204-e980-0998ecf8427e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

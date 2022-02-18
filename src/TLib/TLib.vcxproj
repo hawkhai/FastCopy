@@ -122,6 +122,9 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <OutputFile>..\..\Obj\DebugTlib\TLib.bsc</OutputFile>
     </Bscmake>
+    <PreLinkEvent>
+      <Command>..\..\bin\vcxprojfilters.exe TLib.vcxproj.filters</Command>
+    </PreLinkEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>

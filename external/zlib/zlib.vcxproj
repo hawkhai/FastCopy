@@ -112,6 +112,9 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <OutputFile>Debug\zlib.bsc</OutputFile>
     </Bscmake>
+    <PreLinkEvent>
+      <Command>..\..\bin\vcxprojfilters.exe zlib.vcxproj.filters</Command>
+    </PreLinkEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
